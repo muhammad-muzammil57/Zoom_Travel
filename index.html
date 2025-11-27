@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom Travel | Travel Website</title>
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <h1 class="header__title">Zoom <span>Travel</span></h1>
+        <ul class="header__nav" id="headerNav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+        <div class="header__menu" id="toggleMenu">
+            <i class="fa-solid fa-bars" id="bars"></i>
+            <i class="fa-solid fa-xmark" id="xmark"></i>
+        </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="home__content">
+            <h2 class="home__small-title small-title">Zoom <span class="zoom__travel">Travel</span></h2>
+            <h1 class="home__title title">Find Your Next Dream Destinations!</h1>
+            <p class="home__desc desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi sunt
+                consequuntur voluptatem velit fuga amet tenetur, praesentium ipsam in sed iste iusto dolore adipisci
+                quibusdam doloremque ducimus mollitia ex magnam.</p>
+            <a href="#about">
+                <button class="home__content-btn">
+                    <span>Explore</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </a>
+        </div>
+        <div class="home__cards">
+            <div class="home__card home__card-1">
+                <h3 class="home__card-title">Penida Island</h3>
+            </div>
+            <div class="home__card home__card-2">
+                <h3 class="home__card-title">Khao Sok</h3>
+            </div>
+            <div class="home__card home__card-3">
+                <h3 class="home__card-title">Koh Tonsay</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="about__cards">
+            <div class="about__card about__card-1"></div>
+            <div class="about__card about__card-2">
+                <img src="images/plane.png" class="about__card-2-plane-img">
+            </div>
+            <div class="about__card about__card-3"></div>
+        </div>
+
+
+
+        <div class="about__content">
+            <h2 class="about__small-title small-title">About Us</h2>
+            <h1 class="about__title title">About <span>Our Travel</span></h1>
+            <p class="about__desc desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex error maxime iure a
+                tempora nihil animi et dolore eos commodi.</p>
+            <div class="about__stats">
+                <button class="about__stat about__stat-btn-1">
+                    <i class="fa-solid fa-earth-asia"></i>
+                    <span>50+ Destinations</span>
+                </button>
+                <button class="about__stat about__stat-btn-2">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <span>20+ Tour Guides</span>
+                </button>
+            </div>
+        </div>
+
+
+        <img src="images/travel.png" alt="" class="about__travel-img">
+    </section>
+
+    <!-- Destinations -->
+    <section class="destinations" id="destinations">
+        <div class="destinations__content">
+            <h2 class="destinations__small-title small-title">Find Destinations</h2>
+            <h1 class="destinations__title title">Popular <span>Destinations</span></h1>
+            <p class="destinations__desc desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde nihil eum
+                praesentium voluptate a corporis molestiae iure ipsa nisi repellat!</p>
+            <button class="desttinations__content-btn">
+                <span>View More</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+        </div>
+
+        <div class="destinations__swiper">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__container">
+                            <img src="images/penida-island.jpg">
+                            <div class="swiper-slide__content">
+                                <h3 class="swiper-slide__content-title">Penida Island</h3>
+                                <span class="swiper-slider__content-price">$99</span>
+                                <span class="swiper-slider__content-rating">
+                                    <span>4.9</span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                   
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="swiper-slide__container">
+                                <img src="images/khao-sok.jpg" alt="">
+                                <div class="swiper-slide__content">
+                                    <h3 class="swiper-slide__content-title">Khao Sok</h3>
+                                    <span class="swiper-slider__content-price">$99</span>
+                                    <span class="swiper-slider__content-rating">
+                                        <span>4.9</span>
+                                        <i class="fa-solid fa-star"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__container">
+                                    <img src="images/koh-tonsay.jpg" alt="">
+                                    <div class="swiper-slide__content">
+                                        <h3 class="swiper-slide__content-title">Koh Tonsay</h3>
+                                        <span class="swiper-slider__content-price">$99</span>
+                                        <span class="swiper-slider__content-rating">
+                                            <span>4.9</span>
+                                            <i class="fa-solid fa-star"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__container">
+                            <img src="images/twin-lagon.jpg" alt="">
+                            <div class="swiper-slide__content">
+                                <h3 class="swiper-slide__content-title">Twin Lagon</h3>
+                                <span class="swiper-slider__content-price">$99</span>
+                                <span class="swiper-slider__content-rating">
+                                    <span>4.9</span>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                            
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+
+                      
+                    </div>
+                </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <img src="images/man.png" alt="" class="services__man-img">
+        <div class="services_circle"></div>
+        <div class="services_content">
+            <h1 class="title"> Our <span>Services</span></h1>
+            <p class="desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam nemo odit delectus voluptate, laborum sequi perferendis quas distinctio alias in.</p>
+            <div class="services__cards">
+                <div class="services__card">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    <div>
+                        <h3>Tour Guide</h3>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consectetur aperiam quis facilis dolore ipsa?</span>
+                    </div>
+            </div>
+             <div class="services__cards">
+                <div class="services__card">
+                    <i class="fa-solid fa-plane"></i>
+                    <div>
+                        <h3>Flight Booking</h3>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consectetur aperiam quis facilis dolore ipsa?</span>
+                    </div>
+                </div>
+                 <div class="services__cards">
+                <div class="services__card">
+                    <i class="fa-solid fa-bed"></i>
+                    <div>
+                        <h3>Hotel & Stay</h3>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consectetur aperiam quis facilis dolore ipsa?</span>
+                    </div>
+        </div>
+    </section>
+
+    <!-- Subscribe -->
+    <section class="subscribe">
+        <div class="subscribe__container">
+            <img src="images/plane-3d.png" alt="" class="subscribe__plane-img">
+            <div class="subscribe__content">
+                <h1 class="title">Subscribe to Our Newsletter</h1>
+                <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus aut corrupti eos accusamus a sed enim blanditiis eius fuga.</p>
+                <div class="subscribe__input-container">
+                    <input type="email" class="subscribe__input" placeholder="your@mail.com">
+                    <button class="subscribe__btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+            <h1 class="footer__title title">Zoom <span>Travel</span></h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint culpa molestias veniam, perspiciatis magni saepe.</p>
+            </div>
+            <div>
+                <span class="footer__menu-title">Menu</span>
+                <ul class="footer__menus">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#services">Services</a></li>
+                </ul>
+            </div>
+            <div>
+                <span class="footer__menu-title">Contact</span>
+                <ul class="footer__menus">
+                    <li><a>company@mail.com</a></li>
+                    <li><a>+123 456789</a></li>
+                    <li><a>Banjarbaru, Indonesia</a></li>
+                </ul>
+            </div>
+            <div class="footer__divider"></div>
+            <div class="footer__copyright">
+                2025 All rights reserved | Crafted by Muhammad Muzammil
+            </div>
+        
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="scrollreveal.js"></script>
+    <script src="swiper.js"></script>
+</body>
+
+</html>
